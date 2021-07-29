@@ -20,6 +20,11 @@ export default {
       tasks: [],
     };
   },
+  methods: {
+    deleteTask(id) {
+      console.log("task", id);
+    },
+  },
   created() {
     this.tasks = [
       {
