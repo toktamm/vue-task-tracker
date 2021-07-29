@@ -12,6 +12,11 @@ export default {
   components: {
     Header,
   },
+  data() {
+    return {
+      tasks: []
+    }
+  }
 };
 </script>
 
